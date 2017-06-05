@@ -50,75 +50,6 @@ class SpellCode extends TranslatableCode implements WizardCode
     const CIRCLE_OF_SAFETY = 'circle_of_safety';
     const POWER_OVER_SPACE = 'power_over_space';
 
-    // ENERGETIC MAGIC
-    const MAROON = 'maroon';
-    const BURN = 'burn';
-    const WARM_UP = 'warm_up';
-    const LIGHT = 'light';
-    const HEFT = 'heft';
-    const CALM_DOWN = 'calm_down';
-    const WEIGHTLESS = 'weightless';
-    const BOXER_SHORTS = 'boxer_shorts';
-    const LOOK_BACK = 'look_back';
-    const DISCHARGE = 'discharge';
-    const FIREBALL = 'fireball';
-    const FIRE_HORNETS = 'fire_hornets';
-    const EVAPORATE = 'evaporate';
-    const FREEZE = 'freeze';
-    const HAMMER = 'hammer';
-    const BALL_LIGHTNING = 'ball_lightning';
-    const MELT_METAL = 'melt_metal';
-    const QUENCH = 'quench';
-    const NEKRAKOSA = 'nekrakosa';
-    const FIRE_ARROWS = 'fire_arrows';
-    const FLAMING_SWORD = 'flaming_sword';
-    const PERISH_IN_SPASMS = 'perish_in_spasms';
-    const BRIDGE = 'bridge';
-    const FLAME_TONGUE = 'flame_tongue';
-    const DEATH_IN_FLAMES = 'death_in_flames';
-    const TRACED_DISCHARGE = 'traced_discharge';
-    const SPARKING_DISCHARGE = 'sparking_discharge';
-    const LIGHTING = 'lighting';
-    const SUN_RAY = 'sun_ray';
-    const JAIL_FROM_FLAMES = 'jail_from_flames';
-    const LIGHTNING = 'lightning';
-    const BLACK_FROST = 'black_frost';
-    const CLEANSING_BY_FIRE = 'cleansing_by_fire';
-    const FLAME_WHIP = 'flame_whip';
-    const DECAPITATION = 'decapitation';
-    const SPARKLING_SIGHT = 'sparkling_sight';
-    const TRANSPOSED_DISCHARGE = 'transposed_discharge';
-    const WRATH_OF_GOD = 'wrath_of_god';
-    const FIREWALL = 'firewall';
-    const WATTER_WALK = 'watter_walk';
-
-    // MATERIAL MAGIC
-    const NOT_EVEN_HIT = 'not_even_hit';
-    const TODAY_YOU_WILL_TRY_IT_WITHOUT_WEAPON = 'today_you_will_try_it_without_weapon';
-    const I_WILL_RESCUE_YOU = 'i_will_rescue_you';
-    const STONE_KISS = 'stone_kiss';
-    const SHOCKWAVE = 'shockwave';
-    const HIT = 'hit';
-    const CLOSE_THE_BAR = 'close_the_bar';
-    const ONE_SWORD_PLEASE = 'one_sword_please';
-    const HAIRDRESSER = 'hairdresser';
-    const TAKE_OF_YOUR_ARMOR_BUDDY = 'take_of_your_armor_buddy';
-    const SHIELD = 'shield';
-    const GELATIN_LOCK = 'gelatin_lock';
-    const STAFF = 'staff';
-    const AIR_CAPSULE = 'air_capsule';
-    const FIRE_BREATH = 'fire_breath';
-    const UP_THERE = 'up_there';
-    const I_KNOW_SHORTCUT = 'i_know_shortcut';
-    const HOW_MUCH_YOU_CAN_CARRY = 'how_much_you_can_carry';
-    const CRUSH = 'crush';
-    const MAKE_A_PLACE_MOB = 'make_a_place_mob';
-    const AIR_SHIELD = 'air_shield';
-    const ICE_SWORD = 'ice_sword';
-    const MISTY_CLOUD = 'misty_cloud';
-    const SLIPPERY_ICE = 'slippery_ice';
-    const STEEL_TRAP = 'steel_trap';
-
     /**
      * @return array|string[]
      */
@@ -167,6 +98,48 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::POWER_OVER_SPACE,
         ];
     }
+
+    // ENERGETIC MAGIC
+    const MAROON = 'maroon';
+    const BURN = 'burn';
+    const WARM_UP = 'warm_up';
+    const LIGHT = 'light';
+    const HEFT = 'heft';
+    const CALM_DOWN = 'calm_down';
+    const WEIGHTLESS = 'weightless';
+    const BOXER_SHORTS = 'boxer_shorts';
+    const LOOK_BACK = 'look_back';
+    const DISCHARGE = 'discharge';
+    const FIREBALL = 'fireball';
+    const FIRE_HORNETS = 'fire_hornets';
+    const EVAPORATE = 'evaporate';
+    const FREEZE = 'freeze';
+    const HAMMER = 'hammer';
+    const BALL_LIGHTNING = 'ball_lightning';
+    const MELT_METAL = 'melt_metal';
+    const QUENCH = 'quench';
+    const NEKRAKOSA = 'nekrakosa';
+    const FIRE_ARROWS = 'fire_arrows';
+    const FLAMING_SWORD = 'flaming_sword';
+    const PERISH_IN_SPASMS = 'perish_in_spasms';
+    const BRIDGE = 'bridge';
+    const FLAME_TONGUE = 'flame_tongue';
+    const DEATH_IN_FLAMES = 'death_in_flames';
+    const TRACED_DISCHARGE = 'traced_discharge';
+    const SPARKING_DISCHARGE = 'sparking_discharge';
+    const LIGHTING = 'lighting';
+    const SUN_RAY = 'sun_ray';
+    const JAIL_FROM_FLAMES = 'jail_from_flames';
+    const LIGHTNING = 'lightning';
+    const BLACK_FROST = 'black_frost';
+    const CLEANSING_BY_FIRE = 'cleansing_by_fire';
+    const FLAME_WHIP = 'flame_whip';
+    const DECAPITATION = 'decapitation';
+    const SPARKLING_SIGHT = 'sparkling_sight';
+    const TRANSPOSED_DISCHARGE = 'transposed_discharge';
+    const WRATH_OF_GOD = 'wrath_of_god';
+    const FIREWALL = 'firewall';
+    const WATTER_WALK = 'watter_walk';
 
     /**
      * @return array|string[]
@@ -217,6 +190,48 @@ class SpellCode extends TranslatableCode implements WizardCode
         ];
     }
 
+    // MATERIAL MAGIC
+    const NOT_EVEN_HIT = 'not_even_hit';
+    const TODAY_YOU_WILL_TRY_IT_WITHOUT_WEAPON = 'today_you_will_try_it_without_weapon';
+    const I_WILL_RESCUE_YOU = 'i_will_rescue_you';
+    const STONE_KISS = 'stone_kiss';
+    const SHOCKWAVE = 'shockwave';
+    const HIT = 'hit';
+    const CLOSE_THE_BAR = 'close_the_bar';
+    const ONE_SWORD_PLEASE = 'one_sword_please';
+    const HAIRDRESSER = 'hairdresser';
+    const TAKE_OF_YOUR_ARMOR_BUDDY = 'take_of_your_armor_buddy';
+    const SHIELD = 'shield';
+    const GELATIN_LOCK = 'gelatin_lock';
+    const STAFF = 'staff';
+    const AIR_CAPSULE = 'air_capsule';
+    const FIRE_BREATH = 'fire_breath';
+    const UP_THERE = 'up_there';
+    const I_KNOW_SHORTCUT = 'i_know_shortcut';
+    const HOW_MUCH_YOU_CAN_CARRY = 'how_much_you_can_carry';
+    const CRUSH = 'crush';
+    const MAKE_A_PLACE_MOB = 'make_a_place_mob';
+    const AIR_SHIELD = 'air_shield';
+    const ICE_SWORD = 'ice_sword';
+    const MISTY_CLOUD = 'misty_cloud';
+    const SLIPPERY_ICE = 'slippery_ice';
+    const STEEL_TRAP = 'steel_trap';
+    const CHIPPINGS = 'chippings';
+    const COME_TO_SAFEETY = 'come_to_safeety';
+    const WIND = 'wind';
+    const BECOME_ROOTED = 'become_rooted';
+    const MUD_BATH = 'mud_bath';
+    const WEB = 'web';
+    const SHAPE_CHANGE = 'shape_change';
+    const PARALYSE = 'paralyse';
+    const ROLLHAM = 'rollham';
+    const NOBODY_IS_GOING_THIS_WAY = 'nobody_is_going_this_way';
+    const WATER_BREATH = 'water_breath';
+    const INVISIBLE_SWORD = 'invisible_sword';
+    const BURIED_ALIVE = 'buried_alive';
+    const GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL = 'go_without_fear_you_will_not_fall';
+    const JOY_TO_THE_BONE = 'joy_to_the_bone';
+
     /**
      * @return array
      */
@@ -248,6 +263,21 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::MISTY_CLOUD,
             self::SLIPPERY_ICE,
             self::STEEL_TRAP,
+            self::CHIPPINGS,
+            self::COME_TO_SAFEETY,
+            self::WIND,
+            self::BECOME_ROOTED,
+            self::MUD_BATH,
+            self::WEB,
+            self::SHAPE_CHANGE,
+            self::PARALYSE,
+            self::ROLLHAM,
+            self::NOBODY_IS_GOING_THIS_WAY,
+            self::WATER_BREATH,
+            self::INVISIBLE_SWORD,
+            self::BURIED_ALIVE,
+            self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL,
+            self::JOY_TO_THE_BONE,
         ];
     }
 
@@ -370,6 +400,21 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::MISTY_CLOUD => ['one' => 'misty cloud'],
             self::SLIPPERY_ICE => ['one' => 'slippery ice'],
             self::STEEL_TRAP => ['one' => 'steel trap'],
+            self::CHIPPINGS => ['one' => 'chippings'],
+            self::COME_TO_SAFEETY => ['one' => 'come to safeety'],
+            self::WIND => ['one' => 'wind'],
+            self::BECOME_ROOTED => ['one' => 'become rooted'],
+            self::MUD_BATH => ['one' => 'mud bath'],
+            self::WEB => ['one' => 'web'],
+            self::SHAPE_CHANGE => ['one' => 'shape change'],
+            self::PARALYSE => ['one' => 'paralyse'],
+            self::ROLLHAM => ['one' => 'rollham'],
+            self::NOBODY_IS_GOING_THIS_WAY => ['one' => 'nobody is going this way'],
+            self::WATER_BREATH => ['one' => 'water breath'],
+            self::INVISIBLE_SWORD => ['one' => 'invisible sword'],
+            self::BURIED_ALIVE => ['one' => 'buried alive'],
+            self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL => ['one' => 'go without fear you will not fall'],
+            self::JOY_TO_THE_BONE => ['one' => 'joy to the bone'],
         ],
         'cs' => [
             // TIME-SPACE
@@ -480,6 +525,21 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::MISTY_CLOUD => ['one' => 'Mlžný oblak'],
             self::SLIPPERY_ICE => ['one' => 'Náledí'],
             self::STEEL_TRAP => ['one' => 'Ocelová past'],
+            self::CHIPPINGS => ['one' => 'Odštěpky'],
+            self::COME_TO_SAFEETY => ['one' => 'Pojďte do bezpečí'],
+            self::WIND => ['one' => 'Vítr'],
+            self::BECOME_ROOTED => ['one' => 'Zapustíme kořeny'],
+            self::MUD_BATH => ['one' => 'Bahenní lázeň'],
+            self::WEB => ['one' => 'Pavučina'],
+            self::SHAPE_CHANGE => ['one' => 'Přeměna'],
+            self::PARALYSE => ['one' => 'Ochromení*'],
+            self::ROLLHAM => ['one' => 'Rolšunka'],
+            self::NOBODY_IS_GOING_THIS_WAY => ['one' => 'Tudy už nikdo nepůjde'],
+            self::WATER_BREATH => ['one' => 'Vodní dech'],
+            self::INVISIBLE_SWORD => ['one' => 'Neviditelný meč'],
+            self::BURIED_ALIVE => ['one' => 'Pohřben zaživa'],
+            self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL => ['one' => 'Jdi bez obav, nepropadneš'],
+            self::JOY_TO_THE_BONE => ['one' => 'Radost až na kost'],
         ],
     ];
 
