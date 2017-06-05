@@ -281,12 +281,104 @@ class SpellCode extends TranslatableCode implements WizardCode
         ];
     }
 
+    // INVESTIGATIVE SPELLS
+    const GOOD_TABLE = 'good_table';
+    const WHERE_IS_MY_PIPE = 'where_is_my_pipe';
+    const WHAT_STREW_IS_IT = 'what_strew_is_it';
+    const KICK_OVER_HERE = 'kick_over_here';
+    const REVEAL_MAGIC = 'reveal_magic';
+    const BACK = 'back';
+    const SAFETY_FIRST = 'safety_first';
+    const SEARCH = 'search';
+    const EAVESDROPPING = 'eavesdropping';
+    const EXPLORATION_EYE = 'exploration_eye';
+    const FISH_EYE = 'fish_eye';
+    const WHAT_IS_IT = 'what_is_it';
+    const I_WONDER_WHERE = 'i_wonder_where';
+    const WHERE_I_AM = 'where_i_am';
+    const VIEW_FROM_ABOVE = 'view_from_above';
+    const WEAKNESS = 'weakness';
+    const WHOSE_IS_THIS = 'whose_is_this';
+    const SIGHTS = 'sights';
+    const TRANSLATE = 'translate';
+    const CYPHER = 'cypher';
+    const SEARCH_VOLUME = 'search_volume';
+    const QUICK_READING = 'quick_reading';
+    const BEDBUG = 'bedbug';
+    const NIGHT_VISION = 'night_vision';
+    const FIND_INVISIBILITY = 'find_invisibility';
+    const NOTHING_WILL_HAPPEN_TO_YOU = 'nothing_will_happen_to_you';
+    const REVEAL_POISON = 'reveal_poison';
+    const HEAT_VISION = 'heat_vision';
+    const GENIUS_LOCI = 'genius_loci';
+    const WHERE_WAS_THAT = 'where_was_that';
+    const WHEN_DID_IT_HAPPEN = 'when_did_it_happen';
+    const MAGIC_VISION = 'magic_vision';
+    const LIAR = 'liar';
+    const FIND = 'find';
+    const HIDE_SLANDER = 'hide_slander';
+    const CREATE_SLANDER = 'create_slander';
+    const DECRYPT = 'decrypt';
+    const COMPROMISE_CREATURE = 'compromise_creature';
+    const SORE = 'sore';
+    const CHECK_INFORMATION = 'check_information';
+
+    /**
+     * @return array|string[]
+     */
+    public static function getInvestigativeSpellCodes(): array
+    {
+        return [
+            self::GOOD_TABLE,
+            self::WHERE_IS_MY_PIPE,
+            self::WHAT_STREW_IS_IT,
+            self::KICK_OVER_HERE,
+            self::REVEAL_MAGIC,
+            self::BACK,
+            self::SAFETY_FIRST,
+            self::SEARCH,
+            self::EAVESDROPPING,
+            self::EXPLORATION_EYE,
+            self::FISH_EYE,
+            self::WHAT_IS_IT,
+            self::I_WONDER_WHERE,
+            self::WHERE_I_AM,
+            self::VIEW_FROM_ABOVE,
+            self::WEAKNESS,
+            self::WHOSE_IS_THIS,
+            self::SIGHTS,
+            self::TRANSLATE,
+            self::CYPHER,
+            self::SEARCH_VOLUME,
+            self::QUICK_READING,
+            self::BEDBUG,
+            self::NIGHT_VISION,
+            self::FIND_INVISIBILITY,
+            self::NOTHING_WILL_HAPPEN_TO_YOU,
+            self::REVEAL_POISON,
+            self::HEAT_VISION,
+            self::GENIUS_LOCI,
+            self::WHERE_WAS_THAT,
+            self::WHEN_DID_IT_HAPPEN,
+            self::MAGIC_VISION,
+            self::LIAR,
+            self::FIND,
+            self::HIDE_SLANDER,
+            self::CREATE_SLANDER,
+            self::DECRYPT,
+            self::COMPROMISE_CREATURE,
+            self::SORE,
+            self::CHECK_INFORMATION,
+        ];
+    }
+
     public static function getPossibleValues(): array
     {
         return array_merge(
             self::getTimeSpaceSpellCodes(),
             self::getEnergeticSpellCodes(),
-            self::getMaterialSpellCodes()
+            self::getMaterialSpellCodes(),
+            self::getInvestigativeSpellCodes()
         );
     }
 
@@ -415,6 +507,47 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::BURIED_ALIVE => ['one' => 'buried alive'],
             self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL => ['one' => 'go without fear you will not fall'],
             self::JOY_TO_THE_BONE => ['one' => 'joy to the bone'],
+            // INVESTIGATING MAGIC
+            self::GOOD_TABLE => 'good table',
+            self::WHERE_IS_MY_PIPE => 'where is my pipe',
+            self::WHAT_STREW_IS_IT => 'what strew is it',
+            self::KICK_OVER_HERE => 'kick over here',
+            self::REVEAL_MAGIC => 'reveal magic',
+            self::BACK => 'back',
+            self::SAFETY_FIRST => 'safety first',
+            self::SEARCH => 'search',
+            self::EAVESDROPPING => 'eavesdropping',
+            self::EXPLORATION_EYE => 'exploration eye',
+            self::FISH_EYE => 'fish eye',
+            self::WHAT_IS_IT => 'what is it',
+            self::I_WONDER_WHERE => 'i wonder where',
+            self::WHERE_I_AM => 'where i am',
+            self::VIEW_FROM_ABOVE => 'view from above',
+            self::WEAKNESS => 'weakness',
+            self::WHOSE_IS_THIS => 'whose is this',
+            self::SIGHTS => 'sights',
+            self::TRANSLATE => 'translate',
+            self::CYPHER => 'cypher',
+            self::SEARCH_VOLUME => 'search volume',
+            self::QUICK_READING => 'quick reading',
+            self::BEDBUG => 'bedbug',
+            self::NIGHT_VISION => 'night vision',
+            self::FIND_INVISIBILITY => 'find invisibility',
+            self::NOTHING_WILL_HAPPEN_TO_YOU => 'nothing will happen to you',
+            self::REVEAL_POISON => 'reveal poison',
+            self::HEAT_VISION => 'heat vision',
+            self::GENIUS_LOCI => 'genius loci',
+            self::WHERE_WAS_THAT => 'where was that',
+            self::WHEN_DID_IT_HAPPEN => 'when did it happen',
+            self::MAGIC_VISION => 'magic vision',
+            self::LIAR => 'liar',
+            self::FIND => 'find',
+            self::HIDE_SLANDER => 'hide slander',
+            self::CREATE_SLANDER => 'create slander',
+            self::DECRYPT => 'decrypt',
+            self::COMPROMISE_CREATURE => 'compromise creature',
+            self::SORE => 'sore',
+            self::CHECK_INFORMATION => 'check information',
         ],
         'cs' => [
             // TIME-SPACE
@@ -540,6 +673,47 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::BURIED_ALIVE => ['one' => 'Pohřben zaživa'],
             self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL => ['one' => 'Jdi bez obav, nepropadneš'],
             self::JOY_TO_THE_BONE => ['one' => 'Radost až na kost'],
+            // INVESTIGATING MAGIC
+            self::GOOD_TABLE => ['one' => 'Dobrý stůl'],
+            self::WHERE_IS_MY_PIPE => ['one' => 'Kde mám dýmku?'],
+            self::WHAT_STREW_IS_IT => ['one' => 'Kolik sype?'],
+            self::KICK_OVER_HERE => ['one' => 'Kopni semhle'],
+            self::REVEAL_MAGIC => ['one' => 'Odhal magii'],
+            self::BACK => ['one' => 'Zpátky'],
+            self::SAFETY_FIRST => ['one' => 'Bezpečnost především'],
+            self::SEARCH => ['one' => 'Hledej'],
+            self::EAVESDROPPING => ['one' => 'Odposlech'],
+            self::EXPLORATION_EYE => ['one' => 'Průzkumné oko'],
+            self::FISH_EYE => ['one' => 'Rybí oko'],
+            self::WHAT_IS_IT => ['one' => 'Co je tohle?'],
+            self::I_WONDER_WHERE => ['one' => 'Kampak?'],
+            self::WHERE_I_AM => ['one' => 'Kde jsem?'],
+            self::VIEW_FROM_ABOVE => ['one' => 'Nadhled'],
+            self::WEAKNESS => ['one' => 'Slabina'],
+            self::WHOSE_IS_THIS => ['one' => 'Čí je tohle?'],
+            self::SIGHTS => ['one' => 'Pamětihodnosti'],
+            self::TRANSLATE => ['one' => 'Přelož'],
+            self::CYPHER => ['one' => 'Šifra'],
+            self::SEARCH_VOLUME => ['one' => 'Hledej svazek'],
+            self::QUICK_READING => ['one' => 'Rychločtení'],
+            self::BEDBUG => ['one' => 'Štěnice'],
+            self::NIGHT_VISION => ['one' => 'Vidění za tmy'],
+            self::FIND_INVISIBILITY => ['one' => 'Najdi neviditelnost'],
+            self::NOTHING_WILL_HAPPEN_TO_YOU => ['one' => 'Nic se vám nestane'],
+            self::REVEAL_POISON => ['one' => 'Odhal jed'],
+            self::HEAT_VISION => ['one' => 'Vidění tepla'],
+            self::GENIUS_LOCI => ['one' => 'Genius loci'],
+            self::WHERE_WAS_THAT => ['one' => 'Kde to bylo?'],
+            self::WHEN_DID_IT_HAPPEN => ['one' => 'Kdy to bylo?'],
+            self::MAGIC_VISION => ['one' => 'Vidění magie'],
+            self::LIAR => ['one' => 'Lháři!'],
+            self::FIND => ['one' => 'Najdi'],
+            self::HIDE_SLANDER => ['one' => 'Skryj pomluvu'],
+            self::CREATE_SLANDER => ['one' => 'Stvoř pomluvu'],
+            self::DECRYPT => ['one' => 'Dešifruj'],
+            self::COMPROMISE_CREATURE => ['one' => 'Zkompromituj tvora'],
+            self::SORE => ['one' => 'Bolavé místo'],
+            self::CHECK_INFORMATION => ['one' => 'Prověř informaci'],
         ],
     ];
 
