@@ -372,13 +372,196 @@ class SpellCode extends TranslatableCode implements WizardCode
         ];
     }
 
+    const COLORS_AND_SHAPES = 'colors_and_shapes';
+    const ENJOY_YOURSELF = 'enjoy_yourself';
+    const LOOK_AT_ME = 'look_at_me';
+    const NOTICE = 'notice';
+    const PATCH = 'patch';
+    const NO_FEARS = 'no_fears';
+    const CAGE = 'cage';
+    const FOCUS = 'focus';
+    const COME_HERE = 'come_here';
+    const SLEEP_WELL = 'sleep_well';
+    const BASTION = 'bastion';
+    const CZARDAS = 'czardas';
+    const IGNORE_ME = 'ignore_me';
+    const STAND_OUT = 'stand_out';
+    const BRACE_YOURSELF = 'brace_yourself';
+    const PAIN = 'pain';
+    const WHAT_ARE_YOU_THINKING_ABOUT = 'what_are_you_thinking_about';
+    const BLINDNESS = 'blindness';
+    const FEAR = 'fear';
+    const BERSERK = 'berserk';
+    const I_AM_NOT_HERE_AT_ALL = 'i_am_not_here_at_all';
+    const DREAM = 'dream';
+    const DARKNESS = 'darkness';
+    const IDEA = 'idea';
+    const CONCENTRATION = 'concentration';
+    const PARTY = 'party';
+    const WALL_UP = 'wall_up';
+    const TRUST = 'trust';
+    const LUST = 'lust';
+    const YOU_WILL_NOT_SEE_MEE = 'you_will_not_see_mee';
+    const RESPECT = 'respect';
+    const DAM = 'dam';
+    const PAST = 'past';
+    const NO_ONE_ANYWHERE = 'no_one_anywhere';
+    const FRIEND = 'friend';
+    const DELIRIUM = 'delirium';
+    const PILLAR_OF_SALT = 'pillar_of_salt';
+    const IRE = 'ire';
+    const GO_AND_DO_AS_I_ASK = 'go_and_do_as_i_ask';
+    const PHANTASM = 'phantasm';
+
+    /**
+     * @return array|string[]
+     */
+    public static function getMentalSpellCodes(): array
+    {
+        return [
+            self::COLORS_AND_SHAPES,
+            self::ENJOY_YOURSELF,
+            self::LOOK_AT_ME,
+            self::NOTICE,
+            self::PATCH,
+            self::NO_FEARS,
+            self::CAGE,
+            self::FOCUS,
+            self::COME_HERE,
+            self::SLEEP_WELL,
+            self::BASTION,
+            self::CZARDAS,
+            self::IGNORE_ME,
+            self::STAND_OUT,
+            self::BRACE_YOURSELF,
+            self::PAIN,
+            self::WHAT_ARE_YOU_THINKING_ABOUT,
+            self::BLINDNESS,
+            self::FEAR,
+            self::BERSERK,
+            self::I_AM_NOT_HERE_AT_ALL,
+            self::DREAM,
+            self::DARKNESS,
+            self::IDEA,
+            self::CONCENTRATION,
+            self::PARTY,
+            self::WALL_UP,
+            self::TRUST,
+            self::LUST,
+            self::YOU_WILL_NOT_SEE_MEE,
+            self::RESPECT,
+            self::DAM,
+            self::PAST,
+            self::NO_ONE_ANYWHERE,
+            self::FRIEND,
+            self::DELIRIUM,
+            self::PILLAR_OF_SALT,
+            self::IRE,
+            self::GO_AND_DO_AS_I_ASK,
+            self::PHANTASM,
+        ];
+    }
+
+    // VITAL MAGIC
+    const QUINT_OF_SENSES = 'quint_of_senses';
+    const TORTURE = 'torture';
+    const LUBBER = 'lubber';
+    const STUN = 'stun';
+    const HICCUP = 'hiccup';
+    const FIZZLE_OUT = 'fizzle_out';
+    const TRIP_UP = 'trip_up';
+    const CAROUSEL = 'carousel';
+    const CADAVERIC_SLEEP = 'cadaveric_sleep';
+    const DYE_SKIN = 'dye_skin';
+    const EXHAUST = 'exhaust';
+    const CHANGE_FACE = 'change_face';
+    const BARBER = 'barber';
+    const LET_WOUNDS_BLEED = 'let_wounds_bleed';
+    const SUMMON_UNDEADS = 'summon_undeads';
+    const STRAITJACKET = 'straitjacket';
+    const TEAR_OF_EARS = 'tear_of_ears';
+    const PIERCE_EYES = 'pierce_eyes';
+    const CUT_OUT_TONGUE = 'cut_out_tongue';
+    const CRIPPLE_HAND = 'cripple_hand';
+    const BLEED_FROM_EYES = 'bleed_from_eyes';
+    const METAMORPHOSIS_INTO = 'metamorphosis_into';
+    const VOODOO = 'voodoo';
+    const BECOME_TRANSLUCENT = 'become_translucent';
+    const TOUCH_OF_DEATH = 'touch_of_death';
+    const BONE_BREAKER = 'bone_breaker';
+    const NIMBLENESS = 'nimbleness';
+    const BRING_ON_ALL_ILLNESS = 'bring_on_all_illness';
+    const INSOMNIA = 'insomnia';
+    const CONTROL_ZOMBIE = 'control_zombie';
+    const LEAKAGE = 'leakage';
+    const SNAIL_SHELL = 'snail_shell';
+    const UNDEAD_SERVANT = 'undead_servant';
+    const TIT_FOR_TAT = 'tit_for_tat';
+    const DRAIN_VITALITY = 'drain_vitality';
+    const CONTROL_OVER_GHOSTS = 'control_over_ghosts';
+    const WITHER_AWAY = 'wither_away';
+    const BACK_TO_THE_GRAVE = 'back_to_the_grave';
+    const ANIMATE_UNDEAD = 'animate_undead';
+    const GLANCE_AT_WORLD_BY_EYES = 'glance_at_world_by_eyes';
+
+    /**
+     * @return array|string[]
+     */
+    public static function getVitalSpellCodes(): array
+    {
+        return [
+            self::QUINT_OF_SENSES,
+            self::TORTURE,
+            self::LUBBER,
+            self::STUN,
+            self::HICCUP,
+            self::FIZZLE_OUT,
+            self::TRIP_UP,
+            self::CAROUSEL,
+            self::CADAVERIC_SLEEP,
+            self::DYE_SKIN,
+            self::EXHAUST,
+            self::CHANGE_FACE,
+            self::BARBER,
+            self::LET_WOUNDS_BLEED,
+            self::SUMMON_UNDEADS,
+            self::STRAITJACKET,
+            self::TEAR_OF_EARS,
+            self::PIERCE_EYES,
+            self::CUT_OUT_TONGUE,
+            self::CRIPPLE_HAND,
+            self::BLEED_FROM_EYES,
+            self::METAMORPHOSIS_INTO,
+            self::VOODOO,
+            self::BECOME_TRANSLUCENT,
+            self::TOUCH_OF_DEATH,
+            self::BONE_BREAKER,
+            self::NIMBLENESS,
+            self::BRING_ON_ALL_ILLNESS,
+            self::INSOMNIA,
+            self::CONTROL_ZOMBIE,
+            self::LEAKAGE,
+            self::SNAIL_SHELL,
+            self::UNDEAD_SERVANT,
+            self::TIT_FOR_TAT,
+            self::DRAIN_VITALITY,
+            self::CONTROL_OVER_GHOSTS,
+            self::WITHER_AWAY,
+            self::BACK_TO_THE_GRAVE,
+            self::ANIMATE_UNDEAD,
+            self::GLANCE_AT_WORLD_BY_EYES,
+        ];
+    }
+
     public static function getPossibleValues(): array
     {
         return array_merge(
             self::getTimeSpaceSpellCodes(),
             self::getEnergeticSpellCodes(),
             self::getMaterialSpellCodes(),
-            self::getInvestigativeSpellCodes()
+            self::getInvestigativeSpellCodes(),
+            self::getMentalSpellCodes(),
+            self::getVitalSpellCodes()
         );
     }
 
@@ -548,6 +731,88 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::COMPROMISE_CREATURE => 'compromise creature',
             self::SORE => 'sore',
             self::CHECK_INFORMATION => 'check information',
+            // MENTAL SPELLS
+            self::COLORS_AND_SHAPES => ['one' => 'colors and shapes'],
+            self::ENJOY_YOURSELF => ['one' => 'enjoy yourself'],
+            self::LOOK_AT_ME => ['one' => 'look at me'],
+            self::NOTICE => ['one' => 'notice'],
+            self::PATCH => ['one' => 'patch'],
+            self::NO_FEARS => ['one' => 'no fears'],
+            self::CAGE => ['one' => 'cage'],
+            self::FOCUS => ['one' => 'focus'],
+            self::COME_HERE => ['one' => 'come here'],
+            self::SLEEP_WELL => ['one' => 'sleep well'],
+            self::BASTION => ['one' => 'bastion'],
+            self::CZARDAS => ['one' => 'czardas'],
+            self::IGNORE_ME => ['one' => 'ignore me'],
+            self::STAND_OUT => ['one' => 'stand out'],
+            self::BRACE_YOURSELF => ['one' => 'brace yourself'],
+            self::PAIN => ['one' => 'pain'],
+            self::WHAT_ARE_YOU_THINKING_ABOUT => ['one' => 'what are you thinking about'],
+            self::BLINDNESS => ['one' => 'blindness'],
+            self::FEAR => ['one' => 'fear'],
+            self::BERSERK => ['one' => 'berserk'],
+            self::I_AM_NOT_HERE_AT_ALL => ['one' => 'i am not here at all'],
+            self::DREAM => ['one' => 'dream'],
+            self::DARKNESS => ['one' => 'darkness'],
+            self::IDEA => ['one' => 'idea'],
+            self::CONCENTRATION => ['one' => 'concentration'],
+            self::PARTY => ['one' => 'party'],
+            self::WALL_UP => ['one' => 'wall up'],
+            self::TRUST => ['one' => 'trust'],
+            self::LUST => ['one' => 'lust'],
+            self::YOU_WILL_NOT_SEE_MEE => ['one' => 'you will not see mee'],
+            self::RESPECT => ['one' => 'respect'],
+            self::DAM => ['one' => 'dam'],
+            self::PAST => ['one' => 'past'],
+            self::NO_ONE_ANYWHERE => ['one' => 'no one anywhere'],
+            self::FRIEND => ['one' => 'friend'],
+            self::DELIRIUM => ['one' => 'delirium'],
+            self::PILLAR_OF_SALT => ['one' => 'pillar of salt'],
+            self::IRE => ['one' => 'ire'],
+            self::GO_AND_DO_AS_I_ASK => ['one' => 'go and do as i ask'],
+            self::PHANTASM => ['one' => 'phantasm'],
+            // VITAL
+            self::QUINT_OF_SENSES => ['one' => 'quint of senses'],
+            self::TORTURE => ['one' => 'torture'],
+            self::LUBBER => ['one' => 'lubber'],
+            self::STUN => ['one' => 'stun'],
+            self::HICCUP => ['one' => 'hiccup'],
+            self::FIZZLE_OUT => ['one' => 'fizzle out'],
+            self::TRIP_UP => ['one' => 'trip up'],
+            self::CAROUSEL => ['one' => 'carousel'],
+            self::CADAVERIC_SLEEP => ['one' => 'cadaveric sleep'],
+            self::DYE_SKIN => ['one' => 'dye skin'],
+            self::EXHAUST => ['one' => 'exhaust'],
+            self::CHANGE_FACE => ['one' => 'change face'],
+            self::BARBER => ['one' => 'barber'],
+            self::LET_WOUNDS_BLEED => ['one' => 'let wounds bleed'],
+            self::SUMMON_UNDEADS => ['one' => 'summon undeads'],
+            self::STRAITJACKET => ['one' => 'straitjacket'],
+            self::TEAR_OF_EARS => ['one' => 'tear of ears'],
+            self::PIERCE_EYES => ['one' => 'pierce eyes'],
+            self::CUT_OUT_TONGUE => ['one' => 'cut out tongue'],
+            self::CRIPPLE_HAND => ['one' => 'cripple hand'],
+            self::BLEED_FROM_EYES => ['one' => 'bleed from eyes'],
+            self::METAMORPHOSIS_INTO => ['one' => 'metamorphosis into'],
+            self::VOODOO => ['one' => 'voodoo'],
+            self::BECOME_TRANSLUCENT => ['one' => 'become translucent'],
+            self::TOUCH_OF_DEATH => ['one' => 'touch of death'],
+            self::BONE_BREAKER => ['one' => 'bone breaker'],
+            self::NIMBLENESS => ['one' => 'nimbleness'],
+            self::BRING_ON_ALL_ILLNESS => ['one' => 'bring on all illness'],
+            self::INSOMNIA => ['one' => 'insomnia'],
+            self::CONTROL_ZOMBIE => ['one' => 'control zombie'],
+            self::LEAKAGE => ['one' => 'leakage'],
+            self::SNAIL_SHELL => ['one' => 'snail shell'],
+            self::UNDEAD_SERVANT => ['one' => 'undead servant'],
+            self::TIT_FOR_TAT => ['one' => 'tit for tat'],
+            self::DRAIN_VITALITY => ['one' => 'drain vitality'],
+            self::CONTROL_OVER_GHOSTS => ['one' => 'control over ghosts'],
+            self::WITHER_AWAY => ['one' => 'wither away'],
+            self::BACK_TO_THE_GRAVE => ['one' => 'back to the grave'],
+            self::ANIMATE_UNDEAD => ['one' => 'animate undead'],
+            self::GLANCE_AT_WORLD_BY_EYES => ['one' => 'glance at world by eyes'],
         ],
         'cs' => [
             // TIME-SPACE
@@ -633,87 +898,169 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::FIREWALL => ['one' => 'stěna ohně'],
             self::WATTER_WALK => ['one' => 'vodošlap'],
             // MATERIAL MAGIC
-            self::NOT_EVEN_HIT => ['one' => 'Ani ránu'],
-            self::TODAY_YOU_WILL_TRY_IT_WITHOUT_WEAPON => ['one' => 'Dneska to zkusíš beze zbraně'],
-            self::I_WILL_RESCUE_YOU => ['one' => 'Já vás vysvobodím'],
-            self::STONE_KISS => ['one' => 'Kameňák'],
-            self::SHOCKWAVE => ['one' => 'Tlaková vlna'],
-            self::HIT => ['one' => 'Úder'],
-            self::CLOSE_THE_BAR => ['one' => 'Zavři na závoru'],
-            self::ONE_SWORD_PLEASE => ['one' => 'Jeden meč, prosím'],
-            self::HAIRDRESSER => ['one' => 'Kadeřník'],
-            self::TAKE_OF_YOUR_ARMOR_BUDDY => ['one' => 'Sundej si zbroj, kamaráde'],
-            self::SHIELD => ['one' => 'Štít'],
-            self::GELATIN_LOCK => ['one' => 'Želatinový zámek'],
-            self::STAFF => ['one' => 'Hůl'],
-            self::AIR_CAPSULE => ['one' => 'Kapsle vzduchu'],
-            self::FIRE_BREATH => ['one' => 'Ohnivý dech'],
-            self::UP_THERE => ['one' => 'Támhle nahoru'],
-            self::I_KNOW_SHORTCUT => ['one' => 'Znám zkratku'],
-            self::HOW_MUCH_YOU_CAN_CARRY => ['one' => 'Kolik uneseš…'],
-            self::CRUSH => ['one' => 'Rozdrť'],
-            self::MAKE_A_PLACE_MOB => ['one' => 'Udělejte mi místo, lůzo!'],
-            self::AIR_SHIELD => ['one' => 'Vzdušný štít'],
-            self::ICE_SWORD => ['one' => 'Ledový meč'],
-            self::MISTY_CLOUD => ['one' => 'Mlžný oblak'],
-            self::SLIPPERY_ICE => ['one' => 'Náledí'],
-            self::STEEL_TRAP => ['one' => 'Ocelová past'],
-            self::CHIPPINGS => ['one' => 'Odštěpky'],
-            self::COME_TO_SAFEETY => ['one' => 'Pojďte do bezpečí'],
-            self::WIND => ['one' => 'Vítr'],
-            self::BECOME_ROOTED => ['one' => 'Zapustíme kořeny'],
-            self::MUD_BATH => ['one' => 'Bahenní lázeň'],
-            self::WEB => ['one' => 'Pavučina'],
-            self::SHAPE_CHANGE => ['one' => 'Přeměna'],
-            self::PARALYSE => ['one' => 'Ochromení*'],
-            self::ROLLHAM => ['one' => 'Rolšunka'],
-            self::NOBODY_IS_GOING_THIS_WAY => ['one' => 'Tudy už nikdo nepůjde'],
-            self::WATER_BREATH => ['one' => 'Vodní dech'],
-            self::INVISIBLE_SWORD => ['one' => 'Neviditelný meč'],
-            self::BURIED_ALIVE => ['one' => 'Pohřben zaživa'],
-            self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL => ['one' => 'Jdi bez obav, nepropadneš'],
-            self::JOY_TO_THE_BONE => ['one' => 'Radost až na kost'],
+            self::NOT_EVEN_HIT => ['one' => 'ani ránu'],
+            self::TODAY_YOU_WILL_TRY_IT_WITHOUT_WEAPON => ['one' => 'dneska to zkusíš beze zbraně'],
+            self::I_WILL_RESCUE_YOU => ['one' => 'já vás vysvobodím'],
+            self::STONE_KISS => ['one' => 'kameňák'],
+            self::SHOCKWAVE => ['one' => 'tlaková vlna'],
+            self::HIT => ['one' => 'úder'],
+            self::CLOSE_THE_BAR => ['one' => 'zavři na závoru'],
+            self::ONE_SWORD_PLEASE => ['one' => 'jeden meč, prosím'],
+            self::HAIRDRESSER => ['one' => 'kadeřník'],
+            self::TAKE_OF_YOUR_ARMOR_BUDDY => ['one' => 'sundej si zbroj, kamaráde'],
+            self::SHIELD => ['one' => 'štít'],
+            self::GELATIN_LOCK => ['one' => 'želatinový zámek'],
+            self::STAFF => ['one' => 'hůl'],
+            self::AIR_CAPSULE => ['one' => 'kapsle vzduchu'],
+            self::FIRE_BREATH => ['one' => 'ohnivý dech'],
+            self::UP_THERE => ['one' => 'támhle nahoru'],
+            self::I_KNOW_SHORTCUT => ['one' => 'znám zkratku'],
+            self::HOW_MUCH_YOU_CAN_CARRY => ['one' => 'kolik uneseš…'],
+            self::CRUSH => ['one' => 'rozdrť'],
+            self::MAKE_A_PLACE_MOB => ['one' => 'udělejte mi místo, lůzo!'],
+            self::AIR_SHIELD => ['one' => 'vzdušný štít'],
+            self::ICE_SWORD => ['one' => 'ledový meč'],
+            self::MISTY_CLOUD => ['one' => 'mlžný oblak'],
+            self::SLIPPERY_ICE => ['one' => 'náledí'],
+            self::STEEL_TRAP => ['one' => 'ocelová past'],
+            self::CHIPPINGS => ['one' => 'odštěpky'],
+            self::COME_TO_SAFEETY => ['one' => 'pojďte do bezpečí'],
+            self::WIND => ['one' => 'vítr'],
+            self::BECOME_ROOTED => ['one' => 'zapustíme kořeny'],
+            self::MUD_BATH => ['one' => 'bahenní lázeň'],
+            self::WEB => ['one' => 'pavučina'],
+            self::SHAPE_CHANGE => ['one' => 'přeměna'],
+            self::PARALYSE => ['one' => 'ochromení*'],
+            self::ROLLHAM => ['one' => 'rolšunka'],
+            self::NOBODY_IS_GOING_THIS_WAY => ['one' => 'tudy už nikdo nepůjde'],
+            self::WATER_BREATH => ['one' => 'vodní dech'],
+            self::INVISIBLE_SWORD => ['one' => 'neviditelný meč'],
+            self::BURIED_ALIVE => ['one' => 'pohřben zaživa'],
+            self::GO_WITHOUT_FEAR_YOU_WILL_NOT_FALL => ['one' => 'jdi bez obav, nepropadneš'],
+            self::JOY_TO_THE_BONE => ['one' => 'radost až na kost'],
             // INVESTIGATING MAGIC
-            self::GOOD_TABLE => ['one' => 'Dobrý stůl'],
-            self::WHERE_IS_MY_PIPE => ['one' => 'Kde mám dýmku?'],
-            self::WHAT_STREW_IS_IT => ['one' => 'Kolik sype?'],
-            self::KICK_OVER_HERE => ['one' => 'Kopni semhle'],
-            self::REVEAL_MAGIC => ['one' => 'Odhal magii'],
-            self::BACK => ['one' => 'Zpátky'],
-            self::SAFETY_FIRST => ['one' => 'Bezpečnost především'],
-            self::SEARCH => ['one' => 'Hledej'],
-            self::EAVESDROPPING => ['one' => 'Odposlech'],
-            self::EXPLORATION_EYE => ['one' => 'Průzkumné oko'],
-            self::FISH_EYE => ['one' => 'Rybí oko'],
-            self::WHAT_IS_IT => ['one' => 'Co je tohle?'],
-            self::I_WONDER_WHERE => ['one' => 'Kampak?'],
-            self::WHERE_I_AM => ['one' => 'Kde jsem?'],
-            self::VIEW_FROM_ABOVE => ['one' => 'Nadhled'],
-            self::WEAKNESS => ['one' => 'Slabina'],
-            self::WHOSE_IS_THIS => ['one' => 'Čí je tohle?'],
-            self::SIGHTS => ['one' => 'Pamětihodnosti'],
-            self::TRANSLATE => ['one' => 'Přelož'],
-            self::CYPHER => ['one' => 'Šifra'],
-            self::SEARCH_VOLUME => ['one' => 'Hledej svazek'],
-            self::QUICK_READING => ['one' => 'Rychločtení'],
-            self::BEDBUG => ['one' => 'Štěnice'],
-            self::NIGHT_VISION => ['one' => 'Vidění za tmy'],
-            self::FIND_INVISIBILITY => ['one' => 'Najdi neviditelnost'],
-            self::NOTHING_WILL_HAPPEN_TO_YOU => ['one' => 'Nic se vám nestane'],
-            self::REVEAL_POISON => ['one' => 'Odhal jed'],
-            self::HEAT_VISION => ['one' => 'Vidění tepla'],
-            self::GENIUS_LOCI => ['one' => 'Genius loci'],
-            self::WHERE_WAS_THAT => ['one' => 'Kde to bylo?'],
-            self::WHEN_DID_IT_HAPPEN => ['one' => 'Kdy to bylo?'],
-            self::MAGIC_VISION => ['one' => 'Vidění magie'],
-            self::LIAR => ['one' => 'Lháři!'],
-            self::FIND => ['one' => 'Najdi'],
-            self::HIDE_SLANDER => ['one' => 'Skryj pomluvu'],
-            self::CREATE_SLANDER => ['one' => 'Stvoř pomluvu'],
-            self::DECRYPT => ['one' => 'Dešifruj'],
-            self::COMPROMISE_CREATURE => ['one' => 'Zkompromituj tvora'],
-            self::SORE => ['one' => 'Bolavé místo'],
-            self::CHECK_INFORMATION => ['one' => 'Prověř informaci'],
+            self::GOOD_TABLE => ['one' => 'dobrý stůl'],
+            self::WHERE_IS_MY_PIPE => ['one' => 'kde mám dýmku?'],
+            self::WHAT_STREW_IS_IT => ['one' => 'kolik sype?'],
+            self::KICK_OVER_HERE => ['one' => 'kopni semhle'],
+            self::REVEAL_MAGIC => ['one' => 'odhal magii'],
+            self::BACK => ['one' => 'zpátky'],
+            self::SAFETY_FIRST => ['one' => 'bezpečnost především'],
+            self::SEARCH => ['one' => 'hledej'],
+            self::EAVESDROPPING => ['one' => 'odposlech'],
+            self::EXPLORATION_EYE => ['one' => 'průzkumné oko'],
+            self::FISH_EYE => ['one' => 'rybí oko'],
+            self::WHAT_IS_IT => ['one' => 'co je tohle?'],
+            self::I_WONDER_WHERE => ['one' => 'kampak?'],
+            self::WHERE_I_AM => ['one' => 'kde jsem?'],
+            self::VIEW_FROM_ABOVE => ['one' => 'nadhled'],
+            self::WEAKNESS => ['one' => 'slabina'],
+            self::WHOSE_IS_THIS => ['one' => 'čí je tohle?'],
+            self::SIGHTS => ['one' => 'pamětihodnosti'],
+            self::TRANSLATE => ['one' => 'přelož'],
+            self::CYPHER => ['one' => 'šifra'],
+            self::SEARCH_VOLUME => ['one' => 'hledej svazek'],
+            self::QUICK_READING => ['one' => 'rychločtení'],
+            self::BEDBUG => ['one' => 'štěnice'],
+            self::NIGHT_VISION => ['one' => 'vidění za tmy'],
+            self::FIND_INVISIBILITY => ['one' => 'najdi neviditelnost'],
+            self::NOTHING_WILL_HAPPEN_TO_YOU => ['one' => 'nic se vám nestane'],
+            self::REVEAL_POISON => ['one' => 'odhal jed'],
+            self::HEAT_VISION => ['one' => 'vidění tepla'],
+            self::GENIUS_LOCI => ['one' => 'genius loci'],
+            self::WHERE_WAS_THAT => ['one' => 'kde to bylo?'],
+            self::WHEN_DID_IT_HAPPEN => ['one' => 'kdy to bylo?'],
+            self::MAGIC_VISION => ['one' => 'vidění magie'],
+            self::LIAR => ['one' => 'lháři!'],
+            self::FIND => ['one' => 'najdi'],
+            self::HIDE_SLANDER => ['one' => 'skryj pomluvu'],
+            self::CREATE_SLANDER => ['one' => 'stvoř pomluvu'],
+            self::DECRYPT => ['one' => 'dešifruj'],
+            self::COMPROMISE_CREATURE => ['one' => 'zkompromituj tvora'],
+            self::SORE => ['one' => 'bolavé místo'],
+            self::CHECK_INFORMATION => ['one' => 'prověř informaci'],
+            // MENTAL SPELLS
+            self::COLORS_AND_SHAPES => ['one' => 'barvy a tvary'],
+            self::ENJOY_YOURSELF => ['one' => 'bav se dobře'],
+            self::LOOK_AT_ME => ['one' => 'sem se mi dívej!'],
+            self::NOTICE => ['one' => 'všimni si'],
+            self::PATCH => ['one' => 'záplata'],
+            self::NO_FEARS => ['one' => 'žádné strachy'],
+            self::CAGE => ['one' => 'klec'],
+            self::FOCUS => ['one' => 'koncentrace'],
+            self::COME_HERE => ['one' => 'pojď sem!'],
+            self::SLEEP_WELL => ['one' => 'spi sladce'],
+            self::BASTION => ['one' => 'val'],
+            self::CZARDAS => ['one' => 'čardáš'],
+            self::IGNORE_ME => ['one' => 'nevšímejte si mě'],
+            self::STAND_OUT => ['one' => 'vyčnívej'],
+            self::BRACE_YOURSELF => ['one' => 'vzchop se!'],
+            self::PAIN => ['one' => 'bolest'],
+            self::WHAT_ARE_YOU_THINKING_ABOUT => ['one' => 'na co myslíš?'],
+            self::BLINDNESS => ['one' => 'slepota'],
+            self::FEAR => ['one' => 'strach'],
+            self::BERSERK => ['one' => 'berserk'],
+            self::I_AM_NOT_HERE_AT_ALL => ['one' => 'já tady vůbec nejsem'],
+            self::DREAM => ['one' => 'sen'],
+            self::DARKNESS => ['one' => 'temnota'],
+            self::IDEA => ['one' => 'nápad'],
+            self::CONCENTRATION => ['one' => 'soustředění'],
+            self::PARTY => ['one' => 'večírek'],
+            self::WALL_UP => ['one' => 'zazdi'],
+            self::TRUST => ['one' => 'důvěra'],
+            self::LUST => ['one' => 'chtíč'],
+            self::YOU_WILL_NOT_SEE_MEE => ['one' => 'neuvidíš mne'],
+            self::RESPECT => ['one' => 'respekt'],
+            self::DAM => ['one' => 'hrázF'],
+            self::PAST => ['one' => 'minulost'],
+            self::NO_ONE_ANYWHERE => ['one' => 'nikde nikdo*'],
+            self::FRIEND => ['one' => 'přítel'],
+            self::DELIRIUM => ['one' => 'delirium'],
+            self::PILLAR_OF_SALT => ['one' => 'solný sloup'],
+            self::IRE => ['one' => 'zloba'],
+            self::GO_AND_DO_AS_I_ASK => ['one' => 'jdi a konej, jak žádám'],
+            self::PHANTASM => ['one' => 'přelud'],
+            // VITAL
+            self::QUINT_OF_SENSES => ['one' => 'Kvinta smyslů'],
+            self::TORTURE => ['one' => 'Muka'],
+            self::LUBBER => ['one' => 'Nemotora'],
+            self::STUN => ['one' => 'Omráčení'],
+            self::HICCUP => ['one' => 'Škytavka'],
+            self::FIZZLE_OUT => ['one' => 'Uvadni'],
+            self::TRIP_UP => ['one' => 'Zakopni'],
+            self::CAROUSEL => ['one' => 'Kolotoč'],
+            self::CADAVERIC_SLEEP => ['one' => 'Mrtvolný spánek'],
+            self::DYE_SKIN => ['one' => 'Obarvi kůži'],
+            self::EXHAUST => ['one' => 'Vyčerpej'],
+            self::CHANGE_FACE => ['one' => 'Změň tvář'],
+            self::BARBER => ['one' => 'Lazebník'],
+            self::LET_WOUNDS_BLEED => ['one' => 'Nech rány krvácet'],
+            self::SUMMON_UNDEADS => ['one' => 'Přivolej nemrtvé'],
+            self::STRAITJACKET => ['one' => 'Svěrací kazajka'],
+            self::TEAR_OF_EARS => ['one' => 'Urvi uši'],
+            self::PIERCE_EYES => ['one' => 'Vypíchni oči'],
+            self::CUT_OUT_TONGUE => ['one' => 'Vyřízni jazyk'],
+            self::CRIPPLE_HAND => ['one' => 'Zchrom ruku'],
+            self::BLEED_FROM_EYES => ['one' => 'Krvácej z očí'],
+            self::METAMORPHOSIS_INTO => ['one' => 'Metamorfóza v ...'],
+            self::VOODOO => ['one' => 'Voodoo'],
+            self::BECOME_TRANSLUCENT => ['one' => 'Zprůsvnitnění'],
+            self::TOUCH_OF_DEATH => ['one' => 'Dotek smrti'],
+            self::BONE_BREAKER => ['one' => 'Lamač kostí'],
+            self::NIMBLENESS => ['one' => 'Mrštnost'],
+            self::BRING_ON_ALL_ILLNESS => ['one' => 'Přivoď nemoc'],
+            self::INSOMNIA => ['one' => 'Insomnie'],
+            self::CONTROL_ZOMBIE => ['one' => 'Ovládni zombíka'],
+            self::LEAKAGE => ['one' => 'Průsak'],
+            self::SNAIL_SHELL => ['one' => 'Šnečí krunýř'],
+            self::UNDEAD_SERVANT => ['one' => 'Nemrtvý služebník'],
+            self::TIT_FOR_TAT => ['one' => 'Oko za oko, zub za zub'],
+            self::DRAIN_VITALITY => ['one' => 'Vysaj sílu'],
+            self::CONTROL_OVER_GHOSTS => ['one' => 'Moc nad duchy'],
+            self::WITHER_AWAY => ['one' => 'Uchřadni'],
+            self::BACK_TO_THE_GRAVE => ['one' => 'Vrať se do hrobu'],
+            self::ANIMATE_UNDEAD => ['one' => 'Oživ nemrtvého'],
+            self::GLANCE_AT_WORLD_BY_EYES => ['one' => 'Pohlédni na svět očima...'],
         ],
     ];
 

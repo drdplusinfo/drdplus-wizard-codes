@@ -17,7 +17,7 @@ class AllWizardTranslatableCodesTest extends AllTranslatableCodesTest
 
     protected function getValuesSameInCzechAndEnglish(): array
     {
-        return ['nekrakosa'];
+        return ['nekrakosa', 'genius_loci', 'berserk', 'delirium'];
     }
 
     protected function codeToEnglish(string $code): string
