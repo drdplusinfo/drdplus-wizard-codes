@@ -1044,7 +1044,7 @@ class SpellCode extends TranslatableCode implements WizardCode
             self::BLEED_FROM_EYES => ['one' => 'Krvácej z očí'],
             self::METAMORPHOSIS_INTO => ['one' => 'Metamorfóza v ...'],
             self::VOODOO => ['one' => 'Voodoo'],
-            self::BECOME_TRANSLUCENT => ['one' => 'Zprůsvnitnění'],
+            self::BECOME_TRANSLUCENT => ['one' => 'Zprůsvitnění'],
             self::TOUCH_OF_DEATH => ['one' => 'Dotek smrti'],
             self::BONE_BREAKER => ['one' => 'Lamač kostí'],
             self::NIMBLENESS => ['one' => 'Mrštnost'],
