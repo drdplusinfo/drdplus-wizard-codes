@@ -1064,9 +1064,9 @@ class SpellCode extends TranslatableCode implements WizardCode
         ],
     ];
 
-    protected function getTranslations(string $languageCode): array
+    protected function fetchTranslations(): array
     {
-        return self::$translations[$languageCode] ?? [];
+        return self::$translations;
     }
 
 }
