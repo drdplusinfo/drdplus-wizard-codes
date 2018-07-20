@@ -10,13 +10,13 @@
   },
   "require": {
     "php": ">=7.1",
-    "granam/strict-object": "dev-master",
-    "drd-plus/codes": "dev-master"
+    "granam/strict-object": "^3.0",
+    "drd-plus/codes": "^1.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
-    "phpunit/phpunit": "~6.0",
-    "mockery/mockery": "~0.9",
+    "phpunit/phpunit": "~7.0",
+    "mockery/mockery": "~1.0",
     "granam/exceptions-hierarchy": "~4.0"
   },
   "minimum-stability": "dev",
